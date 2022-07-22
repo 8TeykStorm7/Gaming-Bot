@@ -58,7 +58,7 @@ bot.on('message', async message => {
       const ee = new Discord.MessageEmbed()
         .setTitle("On ma ping ?")
         .setColor("RANDOM")
-        .setDescription("**Mon prefix est `!`, pour avoir accès au commandes :**  `!help`, \n\n __**Merci à toi !**__")
+        .setDescription("**Mon prefix est `&`, pour avoir accès au commandes :**  `!help`, \n\n __**Merci à toi !**__")
         .setTimestamp()
       message.channel.send(ee)
     }
